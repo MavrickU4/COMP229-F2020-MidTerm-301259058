@@ -1,7 +1,15 @@
+/*File name: COMP229-F2020-MidTerm-301259058
+* Author's name: Tim Upton
+* StudentID: 301 359 058
+* Web App name: BookList MidTerm 
+* Date: 24 Oct 2022
+*/
+
 //IIFE
 (function()
 {
 
+        //Initial Run 
     function Start()
     {
         console.log("App Started!");
@@ -29,6 +37,7 @@
         });
     }
 
+    // Load on Start
     window.addEventListener("load", Start);
 
 })();
