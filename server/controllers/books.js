@@ -22,7 +22,11 @@ export function displayAddPage(req, res, next) {
 export function processAddPage(req, res, next) {
 
     let newBook = booksModel({
-      
+        name: req.body.name,
+        author: req.body.author,
+        published: req.body.published,
+        description: req.body.description,
+        price: req.body.price
     });
 
     booksModel.create(newBook, (err, Book) => {
